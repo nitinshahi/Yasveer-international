@@ -608,6 +608,12 @@ a{ text-decoration:none; color: inherit; }
   height: 420px;
   object-fit: cover;
 }
+.enquiry__right iframe{
+  width:100%;
+  height: 420px;
+  border: none;
+  border-radius: var(--r-md);
+}
 
 .mapCard__info{
   display: flex;
