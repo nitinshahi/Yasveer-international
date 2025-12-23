@@ -18,10 +18,10 @@ export default function Culture() {
           {/* <p className="muted">
             It’s the foundation of our success and the driver of yours.
           </p> */}
-          <ul className="checklist" aria-label="Highlights">
-            <li><FontAwesomeIcon icon={faCheck} style={{ color: "green", fontSize: 30 }} /><span className="li">High standards of professionalism, integrity. Establishment of close working relationships.</span></li>
-            <li><FontAwesomeIcon icon={faCheck} style={{ color: "green", fontSize: 30 }} /><span className="li">We do have to give our best. Ability to learn, multicultural competence and cross border operability.</span></li>
-            <li><FontAwesomeIcon icon={faCheck} style={{ color: "green", fontSize: 30 }} /><span className="li">A different way of thinking, both inside and outside the box we do have to give our best.</span></li>
+          <ul className="checklist checklistRow" aria-label="Highlights">
+            <li><FontAwesomeIcon className="checkBox" icon={faCheck} style={{ color: "white", fontSize: 30 }} /><span className="li">High standards of professionalism, integrity. Establishment of close working relationships.</span></li>
+            <li><FontAwesomeIcon className="checkBox" icon={faCheck} style={{ color: "white", fontSize: 30 }} /><span className="li">We do have to give our best. Ability to learn, multicultural competence and cross border operability.</span></li>
+            <li><FontAwesomeIcon className="checkBox" icon={faCheck} style={{ color: "white", fontSize: 30 }} /><span className="li">A different way of thinking, both inside and outside the box we do have to give our best.</span></li>
           </ul>
         </div>
 

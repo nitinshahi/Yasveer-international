@@ -1,3 +1,4 @@
+import Image from "next/image";
 const points = [
   {
     title: "Qualified Team Of Professionals",
@@ -32,13 +33,16 @@ export default function WhyUs() {
 
           <ul className="whyList">
             {points.map((p) => (
-              <li key={p.title} className="whyItem">
+              <span key={p.title} className="whyItem">
                 <div className="whyItem__dot" aria-hidden="true" />
-                <div>
+                <div style={{ display: "flex", flexDirection: "row", gap: "12px", alignItems: "center" }}>
+                  <Image src="/images/checkbox.svg" alt="" height={30} width={30} />
                   <h3 className="whyItem__title">{p.title}</h3>
-                  <p className="muted">{p.text}</p>
                 </div>
-              </li>
+                  <div>
+                  <p className="muted">{p.text}</p>
+                  </div>
+              </span>
             ))}
           </ul>
         </div>
