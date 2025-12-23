@@ -5,11 +5,11 @@ export default function Enquiry() {
         <div className="enquiry__left">
           <h2 className="h2">Drop us a Call</h2>
 
-          <form className="form" 
+          <form className="form " 
           //Handle form submission
-        //   onSubmit={(e) => e.preventDefault()}
+          // onSubmit={(e) => e.preventDefault()}
           >
-            <div className="field">
+            <div className="field ">
               <label htmlFor="name">your name</label>
               <input id="name" placeholder="Enter your name" />
             </div>

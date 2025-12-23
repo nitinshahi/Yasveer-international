@@ -23,16 +23,16 @@ export default function Story() {
 
           <div className="story__stats">
             <div className="storyStat">
-              <div className="storyStat__num">290+</div>
+              <div className="storyStat__num">63+</div>
               <div className="storyStat__label">Happy<br/>Customers</div>
             </div>
 
-            <div className="story__divider" aria-hidden="true" />
+            {/* <div className="story__divider" aria-hidden="true" /> */}
 
-            <div className="storyStat">
+            {/* <div className="storyStat">
               <div className="storyStat__num">50+</div>
               <div className="storyStat__label">International<br/>Clients</div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

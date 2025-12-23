@@ -290,6 +290,11 @@ a{ text-decoration:none; color: inherit; }
   align-items:start;
   /* background-color: #F8F2E8; */
 }
+.culture__inner .h2{
+  text-align:left;
+  font-size: 36px;
+  font-weight: 500;
+}
 .culture__bigTitle{
   margin:0;
   font-size: clamp(32px, 3.3vw, 54px);
@@ -302,6 +307,10 @@ a{ text-decoration:none; color: inherit; }
   display:flex;
   flex-direction: column;
   gap: 18px;
+}
+.checklist .li{
+  font-size: 20px;
+  font-weight: 500;
 }
 .checkRow{
   display:flex;
@@ -331,10 +340,18 @@ a{ text-decoration:none; color: inherit; }
 
 /* Core values (dark band, no cards, centered) */
 .values{
+  text-align:center;
   background: radial-gradient(1000px 360px at 50% -20%, rgba(255,255,255,.10), transparent 60%),
               linear-gradient(180deg, #2a070c, #1d0508);
   padding: 86px 0;
   color:#fff;
+}
+.values__head .h2{
+  /* text-align:center; */
+  font-size: 32px;
+  font-weight: 600;
+  /* max-width: 720px; */
+  font-style: semi-bold;
 }
 .valuesGrid{
   margin-top: 54px;
@@ -366,6 +383,9 @@ a{ text-decoration:none; color: inherit; }
 }
 
 /* Why section */
+.why{
+  background-color: #F8F2E8;
+}
 .why__inner{
   display:grid;
   grid-template-columns: 1fr 1fr;
